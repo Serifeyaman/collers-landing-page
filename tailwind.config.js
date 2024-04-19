@@ -8,6 +8,10 @@ module.exports = {
         900: "#78350F",
       },
     },
+    texts: {
+      sm: "4px",
+      lg: "16px",
+    },
   },
   plugins: [],
 };

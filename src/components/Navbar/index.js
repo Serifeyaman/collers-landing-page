@@ -17,11 +17,7 @@ const Navbar = () => {
         <div className="relative flex items-center justify-between p-4">
           <div className="flex flex-1 items-center justify-start sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <img
-                className="h-8 w-auto"
-                src="./Collers.png"
-                alt="Your Company"
-              />
+              <p className="text-amber-900 text-3xl font-bold">Collers</p>
             </div>
           </div>
           <div
@@ -38,13 +34,13 @@ const Navbar = () => {
                   <a
                     key={_index}
                     href={item.url}
-                    className="text-amber-900 px-3 py-2 text-[16px] font-medium"
+                    className="text-amber-900 px-3 py-2 text-base font-medium"
                   >
                     {item.name}
                   </a>
                 ))}
 
-                <button className="bg-white px-3 py-2 hover:bg-[#78350F] text-amber-900 font-semibold hover:text-white border border-[#78350F] hover:border-transparent rounded">
+                <button className="bg-white px-3 py-2 hover:bg-amber-900 text-amber-900 font-semibold hover:text-white border border-ambg-amber-900 hover:border-transparent rounded">
                   Sign Up Now
                 </button>
               </div>
@@ -60,13 +56,13 @@ const Navbar = () => {
               <a
                 key={index}
                 href={item.url}
-                className="text-amber-900 px-3 py-2 text-[16px] font-medium block text-center"
+                className="text-amber-900 px-3 py-2 text-base font-medium block text-center"
               >
                 {item.name}
               </a>
             ))}
 
-            <button className="bg-white p-3 hover:bg-[#78350F] text-amber-900 font-semibold hover:text-white border border-[#78350F] hover:border-transparent rounded-lg block m-auto">
+            <button className="bg-white p-3 hover:bg-amber-900 text-amber-900 font-semibold hover:text-white border border-ambg-amber-900 hover:border-transparent rounded-lg block m-auto">
               Sign Up Now
             </button>
           </div>
