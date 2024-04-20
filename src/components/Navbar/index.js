@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-amber-100">
+    <nav className="bg-amber-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between p-4">
           <div className="flex flex-1 items-center justify-start sm:items-stretch sm:justify-start">

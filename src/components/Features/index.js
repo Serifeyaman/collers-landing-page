@@ -1,5 +1,5 @@
-import Icons from "components/Icons";
 import React from "react";
+import { Icons, Section } from "components";
 
 const Features = () => {
   const FEATURES_DATA = [
@@ -26,18 +26,26 @@ const Features = () => {
     },
   ];
   return (
-    <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-auto max-w-7xl px-2 sm:px-6 lg:px-12 my-12 gap-8">
-      {FEATURES_DATA.map((item) => (
-        <span key={item.id} className="space-y-4 py-12">
-          <div>{item.icon}</div>
-          <span className="font-medium text-[20px] text-[#0F172A] block">
-            {item.title}
+    <div
+      style={{
+        backgroundImage: "url(/Rectangle.png)",
+        backgroundSize: "cover",
+      }}
+    >
+      <Section />
+      <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-auto max-w-7xl px-2 sm:px-6 lg:px-12 my-12 pt-24 pb-20 gap-8 bg-amber-100 lg:bg-transparent">
+        {FEATURES_DATA.map((item) => (
+          <span key={item.id} className="space-y-4 py-12 lg:text-start text-center">
+            <div className="flex lg:justify-start justify-center">{item.icon}</div>
+            <span className="font-medium text-[20px] text-[#0F172A] block">
+              {item.title}
+            </span>
+            <span className="font-normal text-[18px] text-[#0F172A] block">
+              {item.description}
+            </span>
           </span>
-          <span className="font-normal text-[18px] text-[#0F172A] block">
-            {item.description}
-          </span>
-        </span>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
