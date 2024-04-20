@@ -33,7 +33,7 @@ const Features = () => {
       }}
     >
       <Section />
-      <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-auto max-w-7xl px-2 sm:px-6 lg:px-12 my-12 pt-24 pb-20 gap-8 bg-amber-100 lg:bg-transparent">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-auto max-w-7xl px-2 sm:px-6 lg:px-12 mt-12 pt-24 pb-20 gap-8 bg-amber-100 lg:bg-transparent">
         {FEATURES_DATA.map((item) => (
           <span key={item.id} className="space-y-4 py-12 lg:text-start text-center">
             <div className="flex lg:justify-start justify-center">{item.icon}</div>

@@ -2,5 +2,6 @@ import Navbar from "./Navbar";
 import Icons from "./Icons";
 import Section from "./Section";
 import Features from "./Features";
+import Product from "./Product";
 
-export { Navbar, Icons, Section, Features };
+export { Navbar, Icons, Section, Features, Product };

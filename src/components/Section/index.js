@@ -3,10 +3,8 @@ import Icons from "components/Icons";
 
 const Section = () => {
   return (
-    <div
-      className="grid lg:grid-cols-3 sm:grid-cols-1 mx-auto px-2 sm:px-6 lg:px-40 my-12 gap-8"
-    >
-      <div className="lg:col-span-2 flex items-center justify-start ">
+    <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-auto max-w-7xl px-2 sm:px-6 lg:px-12 my-12 gap-8">
+      <div className="lg:col-span-2 flex items-center justify-start">
         <div className="lg:text-start text-center">
           <p className="font-extrabold lg:text-6xl text-5xl text-[#0F172A] mb-6">
             Collectible Sneakers
