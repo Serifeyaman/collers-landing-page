@@ -2,7 +2,7 @@ import React from "react";
 import Image1 from "assets/images/Picture1.png";
 import Image2 from "assets/images/Picture2.png";
 import Image3 from "assets/images/Picture3.png";
-import Icons from "components/Icons";
+import { Icons } from "components";
 
 const Product = () => {
   const PRODUCT_ARRAY = [

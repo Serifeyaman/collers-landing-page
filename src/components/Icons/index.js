@@ -4,6 +4,7 @@ import Cup from "./Cup";
 import Cursus from "./Cursus";
 import Tv from "./Tv";
 import Shop from "./Shop";
+import Check from "./Check";
 
 let Icons = {
   Menu,
@@ -12,6 +13,7 @@ let Icons = {
   Cursus,
   Tv,
   Shop,
+  Check,
 };
 
 export default Icons;
