@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-amber-100">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between p-4">
           <div className="flex flex-1 items-center justify-start sm:items-stretch sm:justify-start">
@@ -40,7 +40,7 @@ const Navbar = () => {
                   </a>
                 ))}
 
-                <button className="bg-white px-3 py-2 hover:bg-amber-900 text-amber-900 font-semibold hover:text-white border border-ambg-amber-900 hover:border-transparent rounded">
+                <button className="bg-transparent px-3 py-2 hover:bg-amber-900 text-amber-900 font-semibold hover:text-white border border-amber-900 hover:border-transparent rounded">
                   Sign Up Now
                 </button>
               </div>
