@@ -1,5 +1,13 @@
 import React from "react";
-import { Features, Footer, JoinUs, Navbar, Product } from "components";
+import {
+  Collection,
+  Features,
+  Footer,
+  JoinUs,
+  Map,
+  Navbar,
+  Product,
+} from "components";
 
 const App = () => {
   return (
@@ -8,6 +16,8 @@ const App = () => {
       <Features />
       <Product />
       <JoinUs />
+      <Collection />
+      <Map />
       <Footer />
     </span>
   );

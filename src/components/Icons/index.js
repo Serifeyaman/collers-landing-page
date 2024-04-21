@@ -13,6 +13,13 @@ import PlayStore from "./PlayStore";
 import World from "./World";
 import Twitter from "./Twitter";
 import Youtube from "./Youtube";
+import RightArrow from "./RightArrow";
+import Podcast from "./Podcast";
+import Rocket from "./Rocket";
+import Screen from "./Screen";
+import Search from "./Search";
+import Settings from "./Settings";
+import ShieldCheck from "./ShieldCheck";
 
 let Icons = {
   Menu,
@@ -29,7 +36,14 @@ let Icons = {
   PlayStore,
   World,
   Twitter,
-  Youtube
+  Youtube,
+  RightArrow,
+  Podcast,
+  Screen,
+  Rocket,
+  Settings,
+  ShieldCheck,
+  Search,
 };
 
 export default Icons;

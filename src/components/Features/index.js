@@ -5,21 +5,21 @@ const Features = () => {
   const FEATURES_DATA = [
     {
       id: 1,
-      icon: <Icons.Cup className="w-[65px] h-[65px] text-amber-900" />,
+      icon: <Icons.Cup className="text-amber-900" />,
       title: "Nibh viverra",
       description:
         "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
     },
     {
       id: 2,
-      icon: <Icons.Cursus className="w-[65px] h-[65px] text-amber-900" />,
+      icon: <Icons.Cursus className="mt-5 text-amber-900" />,
       title: "Cursus amet",
       description:
         "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
     },
     {
       id: 3,
-      icon: <Icons.Tv className="w-[65px] h-[65px] text-amber-900" />,
+      icon: <Icons.Tv className="mt-10 text-amber-900" />,
       title: "Ipsum fermentum",
       description:
         "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
