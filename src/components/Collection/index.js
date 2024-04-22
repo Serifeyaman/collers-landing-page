@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import Icons from "components/Icons";
 import React from "react";
 
@@ -61,13 +62,23 @@ const Collection = () => {
             {DATA.map((item, _index) => (
               <li
                 key={_index}
-                className="flex space-x-4 p-4 hover:rounded-xl hover:bg-white hover:shadow-black/10 hover:shadow-md justify-between "
+                className={classNames(
+                  "flex space-x-4 p-4 hover:rounded-xl hover:bg-white hover:shadow-black/10 hover:shadow-md justify-between",
+                  {
+                    "rounded-xl bg-white shadow-black/10 shadow-md":
+                      _index === 0,
+                  }
+                )}
               >
                 <span className="text-lg font-medium flex items-center">
                   {item.icon}
                   {item.name}
                 </span>
-                <Icons.RightArrow className="w-6 h-6 text-transparent hover:!text-[#0F172A]" />
+                <Icons.RightArrow
+                  className={classNames("w-6 h-6 text-transparent", {
+                    "!text-[#0F172A]": _index === 0,
+                  })}
+                />
               </li>
             ))}
           </ul>

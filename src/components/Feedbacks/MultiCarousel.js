@@ -27,8 +27,8 @@ const MultiCarousel = ({ data }) => {
 
   return (
     <Carousel
-      swipeable={false}
-      draggable={false}
+      swipeable={true}
+      draggable={true}
       responsive={responsive}
       ssr={true}
       infinite={true}
@@ -39,7 +39,7 @@ const MultiCarousel = ({ data }) => {
       removeArrowOnDeviceType={["tablet", "mobile"]}
       centerMode={true}
       itemClass="xs:!w-[365px]"
-      className="p-4 pt-24 -z-10 mt-32"
+      className="p-4 lg:pt-24 pt-0 lg:mt-32 mt-0"
     >
       {data.map((item) => (
         <div className="pr-6 py-5">
@@ -47,22 +47,24 @@ const MultiCarousel = ({ data }) => {
             <span className="flex items-center space-x-2 my-4 text-2xl font-bold text-[#475569]">
               {item.icon} <span>{item.company}</span>
             </span>
-            <p className="text-2xl font-normal line-clamp-5 text-ellipsis h-auto">
-              {item.message}
-            </p>
-            <div className="flex space-x-4 items-center">
-              <img
-                src={`${item.profileImg}`}
-                width={64}
-                height={64}
-                alt="profile"
-                className="rounded-full"
-              />
-              <div className="">
-                <p className="text-lg font-normal">{item.name}</p>
-                <p className="text-[16px] font-normal">{item.jobTitle}</p>
+            <div className="flex-row justify-between">
+              <p className="text-2xl font-normal line-clamp-5 text-ellipsis h-auto">
+                {item.message}
+              </p>
+              <div className="flex space-x-4 items-center">
+                <img
+                  src={`${item.profileImg}`}
+                  width={64}
+                  height={64}
+                  alt="profile"
+                  className="rounded-full"
+                />
+                <div className="">
+                  <p className="text-lg font-normal">{item.name}</p>
+                  <p className="text-[16px] font-normal">{item.jobTitle}</p>
+                </div>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
       ))}
