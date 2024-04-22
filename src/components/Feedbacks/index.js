@@ -58,7 +58,7 @@ const Feedbacks = () => {
 
   return (
     <>
-      <div className="lg:-mb-48 max-w-7xl px-6 lg:px-6 lg:mt-0 mt-28">
+      <div className="lg:-mb-48 mx-auto max-w-7xl px-6 lg:px-6 lg:mt-0 mt-28">
         <span className="font-extrabold lg:text-6xl text-3xl text-[#0F172A] block mb-4">
           Because they love us
         </span>

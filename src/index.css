@@ -15,21 +15,6 @@ code {
     monospace;
 }
 
-.full-width-carousel-container {
-  width: 100%; 
-  /* background-color: #FDE68A; */
-  padding: 5px 0; 
-  box-sizing: border-box; 
-}
-
-.react-multi-carousel-list {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* position: absolute;
-  bottom: -60px; */
-}
-
 .react-multiple-carousel__arrow--left{
   left: calc(77% + 1px) !important;
   top: 15px;
@@ -43,7 +28,7 @@ code {
 }
 
 .react-multiple-carousel__arrow--right{
-  right: calc(18% + 1px) !important;
+  right: calc(16% + 1px) !important;
   position: absolute;
   top: 15px;
   background-color: transparent !important;
