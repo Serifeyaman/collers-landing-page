@@ -2,6 +2,7 @@ import React from "react";
 import {
   Collection,
   Features,
+  Feedbacks,
   Footer,
   JoinUs,
   Map,
@@ -16,6 +17,7 @@ const App = () => {
       <Features />
       <Product />
       <JoinUs />
+      <Feedbacks />
       <Collection />
       <Map />
       <Footer />

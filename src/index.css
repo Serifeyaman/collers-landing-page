@@ -14,3 +14,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.full-width-carousel-container {
+  width: 100%; 
+  padding: 5px 0; 
+  box-sizing: border-box; 
+}
+
+.react-multiple-carousel__arrow--left{
+  left: calc(77% + 1px) !important;
+  top: 15px;
+  position: absolute;
+  background-color: transparent !important;
+  border: 1px solid #78350F !important;
+}
+
+.react-multiple-carousel__arrow::before{
+  color: #78350F !important
+}
+
+.react-multiple-carousel__arrow--right{
+  right: calc(18% + 1px) !important;
+  position: absolute;
+  top: 15px;
+  background-color: transparent !important;
+  border: 1px solid #78350F !important;
+}
